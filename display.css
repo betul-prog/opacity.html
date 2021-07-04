@@ -1,0 +1,43 @@
+.head1 {
+    color:purple;
+}
+.head2 {
+    color:royalblue;
+}
+.head3 {
+    color:seagreen;
+}
+span.a {  /* span içindeki a classlarını seçtik */
+    display: inline; /* inline eleman yaptık, aynı satırda görüntüledik. boyutlandırma kabul etmez */
+    width: 100px; 
+    height: 100px;
+    padding: 5px;
+    border: 2px solid yellowgreen;
+    background-color: purple;
+    color: white;
+}
+span.b { /*span içindeki b classlarını seçtik */
+    display: inline-block; /* elemente inline içiden yükseklik ve genişlik ayarlama özelliği veriyoruz */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 2px solid yellow;
+    background-color: royalblue;
+}
+span.c { /*span içindeki c class larını seçtik */
+    display: block; /* block elemana çevirdik, alt alta görüntüledik */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 3px solid orange;
+    background-color: seagreen;
+}
+span.d { /* span içindeki d classlarını seçtik */
+    display: none; /* elemanı yok eder, yeri de yok olur */
+    visibility: hidden; /* bu da elemanı yok eder ama elemanın kapladığı yer boş kalır */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 3px solid yellowgreen;
+    background-color: orange;
+}
